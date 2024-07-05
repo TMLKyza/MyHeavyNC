@@ -27,6 +27,11 @@ The file structure is straightforward. In the `LCNC-config` folder, you will fin
 Another thing I didnt like how it was handled was tool-lenght-offsets and so I rewrote `M6remap` macro. Now, you only need to touch off the spindle cone on the tool setter and write the absolute measurement into the `.ini` file.
 Because of this I found no necessity to use the touchoff procedure used by QtDragon, so I rewired the button to the `M6` command.
 
+To install in LinuxCNC all the above additions:
+1. copy the `m6-remap` folder into ~/linuxcnc/nc_files/examples/
+2. copy `f360-subroutines` into \~/linuxcnc/nc_files/examples
+3. import in Fusion the new post processor `LCNC.cps`
+
 ## Why Choose This Project?
 
 MyHeavyNC takes everything good from the original PrintNC project and makes it stiffer, heavier, and more powerful. The result is the ability to mill at 60+ cm³/min in aluminum and cut steel at 6000 rpm.

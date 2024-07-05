@@ -1,0 +1,34 @@
+T62  P0   D+10.000000 Z+92.780287 ;- 2.5mm drill 
+T1   P1   D+7.937500 ;- 5/16" 2f wood 
+T2   P2   D+12.700000 ;- 1/2" 2f wood 
+T3   P3   D+4.000000 ;temu - 4mm 3flute 
+T4   P4   D+3.000000 ;swt - 3mm 2flute 
+T5   P5   D+4.000000 Z+38.010430 ;swt - 4mm 2flute 
+T6   P6   D+6.000000 Z+37.104200 ;swt - 6mm 2flute 
+T7   P7   D+3.000000 ;temu - R1.5mm 2flues 
+T8   P8   D+6.000000 ;swt - 6mm 3flute 
+T9   P9   D+6.000000 ;swt - 6mm 4flute 
+T10  P10  D+10.000000 ;swt - 10mm 4flute 
+T11  P11  D+4.000000 ;swt - R2 2flues 
+T12  P12  D+6.000000 ;swt - R3mm 2flues 
+T13  P13  D+4.000000 ;swt - 4mm 4flute 
+T14  P14  D+10.000000 Z-13.678570 ;- BAP300R 
+T15  P15  D+8.000000 ;swt - 8mm 4flute 
+T16  P16  D+6.000000 Z+33.343898 ;xcan - 6mm 3flute 
+T17  P17  D+7.900000 Z+41.356520 ;xcan - 8mm 3flute 
+T18  P18  D+3.000000 Z+29.340620 ;xcan - 3mm 3flute 
+T19  P19  D+16.000000 Z+118.839610 ;- BAP 16mm 
+T50  P50  D+3.000000 Z+41.219010 ;- 3mm drill 
+T51  P51  D+4.000000 ;- 4mm drill 
+T53  P53  D+1.200000 ;- 1.2mm drill 
+T54  P54  D+8.000000 ;- 8mm drill 
+T55  P55  D+5.000000 Z+52.866420 ;- 5mm drill 
+T56  P56  D+5.500000 ;- 5.5mm drill 
+T57  P57  D+6.000000 Z+63.335040 ;- 6mm drill 
+T58  P58  D+7.000000 ;- 7mm drill 
+T59  P59  D+4.200000 Z+56.543330 ;- 4.2mm drill 
+T60  P60  D+4.500000 Z+59.620300 ;- 4.5mm drill 
+T61  P61  D+6.500000 Z+63.439190 ;- 6.5mm drill 
+T70  P70  D+12.700000 ;- 1/2" wood chamfering tool 
+T71  P71  D+6.000000 Z+33.428780 ;- 6mm chamfering tool 
+T99  P0   Z+60.150160 ;probe 

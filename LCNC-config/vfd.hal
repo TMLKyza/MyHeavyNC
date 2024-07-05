@@ -1,0 +1,17 @@
+loadusr -Wn vfd python3 /home/tmlkyza/linuxcnc/configs/vfdnc/vfd_driver.py
+
+net spindle-on spindle.0.on => vfd.spindle-on
+net spindle-cw spindle.0.forward => vfd.spindle-cw
+net spindle-ccw spindle.0.reverse => vfd.spindle-ccw
+net spindle-speed spindle.0.speed-out => vfd.spindle-speed
+net spindle-rps vfd.spindle-rps => spindle.0.speed-in
+net spindle-at-speed spindle.0.at-speed => vfd.spindle-at-speed
+
+net spindle-fault-pause vfd.spindle-on-fault
+net spindle-fault vfd.spindle-fault
+net spindle-voltage vfd.spindle-voltage
+net spindle-current vfd.spindle-current
+net spindle-power vfd.spindle-power 
+net spindle-torque vfd.spindle-torque
+net spindle-at-speed vfd.spindle-at-speed => spindle.0.at-speed
+net vfd-connection-status vfd.connection

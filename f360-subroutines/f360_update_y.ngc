@@ -1,0 +1,23 @@
+o<f360_update_y> sub
+
+(first extract our parameters to more friendly variables)
+#<wcs> = #1
+#<hitfound> = #2
+#<expected> = #3
+
+(now update the target wcs)
+#<probing_wcs> = #5220
+#<oldValue> = #[5202+20*#<probing_wcs>]
+#<newValue> = [#<oldValue> + [#<hitfound> - #<expected>]]
+
+(KLUDGE only update work offsets when actually running the probe, not in seek / preview)
+o101 if [#<_task> EQ 1]
+G10 L2 P#<wcs> Y#<newValue>
+(DEBUG, copied WCS #<probing_wcs> Y offset #<oldValue>)
+(DEBUG, updated WCS #<wcs> Y offset to #<newValue>)
+o101 endif
+
+
+o<f360_update_y> endsub
+
+M02

@@ -1,0 +1,10 @@
+o<f360_tip_radius> sub
+
+(we will need to know the accurate - tool table - tip radius)
+o100 if [#<_metric> EQ 1]
+    #<unit_conv> = 1 (Change to 25.4 if using Inches tooltable values with Metric operation mode)
+o100 else
+    #<unit_conv> = 1
+o100 endif
+
+o<f360_tip_radius> endsub [[#5410 / 2] * #<unit_conv>]
